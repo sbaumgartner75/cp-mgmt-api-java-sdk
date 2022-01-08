@@ -46,7 +46,7 @@ public class ApiResponse {
      * @param statusCode HTTP status  code
      * @param responseBody The response body
      */
-      ApiResponse(int statusCode, JSONObject responseBody) {
+      Public ApiResponse(int statusCode, JSONObject responseBody) {
 
          data = responseBody;
          this.statusCode = statusCode;
